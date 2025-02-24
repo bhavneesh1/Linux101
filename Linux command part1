@@ -1,0 +1,53 @@
+
+                 Some Words on Linux 
+
+Linux is an open source Operating System, which is used in a lot of websites,car infotainment systems ,trafiic lights etc.
+
+Linux is a light weight OS founded in 1991. The most common distributions of linux are Ubuntu and Debain.
+
+Ubuntu works requires just 512 MB of RAM.
+
+Basic Commands
+
+echo " Welcome to this repository" // this will print "Welcome to thsi repository"
+whoami // this will give you teh usernam eyou have currently logged in 
+
+File System Commands
+In linux a folder is called a directory.
+
+ls -> lists the contents of teh directory
+mkdir -> creates a directory
+cd -> to move to a different directory
+pwd -> tells you teh present working directory
+cat -> lists the content of the file
+vi -> is the editor to craete a new file
+
+find -> it is used to find a file 
+
+eg -> find -name password.txt
+This will tell you where the password.txt is located
+
+find -name *.txt 
+this will list all the .txt files
+
+wc -l access.log // it will give you the length of the file
+
+grep "10.0.0.1" access.log // it will give you the line where the ip  is present in access.log
+
+
+Operators in Linux
+
+& // this helps you run commands in teh backgroud of the terminal 
+&& //this combines multiple commands in 1 line
+> //it is a redirection operator you can take the output of 1 command and redirect it anywhere
+>> Same as redirection but it appends teh output rather than replacing it
+
+& -> if you want to copy a big file that takes time use & operator to run it in background
+&& -> command1 && command2  -> in this case command 2 will run only when command1 is successfull
+echo hello > welcome -> it puts hello in welcome file
+echo how are you >> welcome -> it appends how are you to a wlcome file which already had "hello"
+
+
+
+
+
