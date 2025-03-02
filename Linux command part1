@@ -1,11 +1,28 @@
-
-                 Some Words on Linux 
+Some Words on Linux 
 
 Linux is an open source Operating System, which is used in a lot of websites,car infotainment systems ,trafiic lights etc.
 
-Linux is a light weight OS founded in 1991. The most common distributions of linux are Ubuntu and Debain.
+Linux is a light weight OS founded in 1991. The most common distributions of linux are Ubuntu and REDHAT.
+
+Linux OS -> Linux Kernal + bunch of software( like browser etc)
+Linux Kernal -> is the one that helps applications to interact with underlyinh hardware
 
 Ubuntu works requires just 512 MB of RAM.
+
+Understanding Directory Structure in Linux
+/ -> root directory or thetop level directory from where every other directory originates
+/bin -> stores binaries and executables
+/etc-> stores all system configuration files
+/home -> home directory where you can store your pictures etc
+/opt -> all third part softwares are installed in opt ( eg Splunk) 
+/tmp -> temporray space ( gets cleared at boot time)
+/usr -> user directory all user related programs . user can also have binaries for that user in /usr/bin
+/var -> variable data ( eg log files /var /logs)
+/boot -> files need to boot your OS lives here. This si where your linux kernal lives
+/media -> location to access the files stored on usb/dvd media
+/mnt -> to mount external files
+/sbin -> system administration boundaries
+/srv -> some linux distribution use /srv for data served  by linux server eg /srv/www -> webserver files /srv/ftp -> ftp files
 
 Basic Commands
 
