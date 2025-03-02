@@ -24,6 +24,10 @@ Understanding Directory Structure in Linux
 /sbin -> system administration boundaries
 /srv -> some linux distribution use /srv for data served  by linux server eg /srv/www -> webserver files /srv/ftp -> ftp files
 
+
+Note -> some applications are installed in /usr/local or /opt directories
+/usr/local/avast/bin
+
 Basic Commands
 
 echo " Welcome to this repository" // this will print "Welcome to thsi repository"
@@ -32,7 +36,7 @@ whoami // this will give you teh usernam eyou have currently logged in
 File System Commands
 In linux a folder is called a directory.
 
-ls -> lists the contents of teh directory
+ls -> lists the contents of the directory
 mkdir -> creates a directory
 cd -> to move to a different directory
 pwd -> tells you teh present working directory
